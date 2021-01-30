@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Activity.MainActivity">
+
+    <TextView
+        android:id="@+id/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="🅿🅻🅰🅲🅴 🅾🆁🅳🅴🆁"
+        android:textColor="@color/overlayBackground"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_below="@id/textStyle"
+        android:id="@+id/Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="🅐🅓🅜🅘🅝 🅐🅟🅟"
+        android:textColor="@color/overlayBackground"
+        android:textSize="30dp" />
+
+
+    <LinearLayout
+        android:layout_below="@id/Style"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_below="@id/Style"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:civ_border_width="1dp"
+            app:civ_circle_background_color="@android:color/white"
+            android:src="@drawable/bipul"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bipul Sarkar"
+            android:textColor="@android:color/black"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:orientation="horizontal">
+
+        <info.hoang8f.widget.FButton
+            android:layout_below="@id/linearLayout"
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            app:cornerRadius="3dp"
+            app:fButtonColor="@color/overlayBackground"
+            app:shadowEnabled="true"
+            app:shadowHeight="3dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

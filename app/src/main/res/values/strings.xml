@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AdminPlaceOrder</string>
+    <string name="slogan">We transport products to customers as quicky as our ex betrays</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Bipul Sarkar</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgot_pwd">Forgot password?</string>
+    <string name="category_text">Add new Category</string>
+    <string name="info_text">Please fill information</string>
+    <string name="title_activity_tracking_order">Map</string>
+
+</resources>
